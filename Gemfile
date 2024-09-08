@@ -45,15 +45,12 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-group :development do
-  # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
-  gem 'capistrano', '~> 3.17'
-  gem 'capistrano-rails', '~> 1.6'
-  gem 'capistrano-rvm', '~> 0.1.2'
-  gem 'capistrano-bundler', '~> 2.0'
-  gem 'capistrano3-puma', '>= 6.0.0.beta.1'
-end
+gem "web-console"
+gem 'capistrano', '~> 3.17'
+gem 'capistrano-rails', '~> 1.6'
+gem 'capistrano-rvm', '~> 0.1.2'
+gem 'capistrano-bundler', '~> 2.0'
+gem 'capistrano3-puma', '>= 6.0.0.beta.1'
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
