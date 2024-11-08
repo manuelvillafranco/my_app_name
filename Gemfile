@@ -50,7 +50,7 @@ group :development do
   gem "web-console"
 end
 
-gem 'capistrano', '~> 3.17'
+gem 'capistrano', '~> 3.19'
 gem 'capistrano-rails', '~> 1.6'
 gem 'capistrano-rvm', '~> 0.1.2'
 gem 'capistrano-bundler', '~> 2.0'
